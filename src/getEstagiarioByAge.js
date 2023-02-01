@@ -16,6 +16,4 @@ function getEstagiarioByAge(idade) {
   return arrayEstagiarios.filter((e) => e.idade === idade);
 }
 
-console.log(getEstagiarioByAge(17));
-
 module.exports = getEstagiarioByAge;

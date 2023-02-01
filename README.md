@@ -113,24 +113,21 @@ Esse exercício foi elaborado por estudantes da Trybe. Sua reutilização fora d
 
 ---
 
-## 7. Obtenha ao menos 90% de cobertura de testes na função `handlerElephants`.
+## 7. Implemente a função `getEstagiarioByChefe`.
 
 <details>
   <summary>
-    Implemente os testes da função <code>handlerElephants</code> para obter ao menos 90% de cobertura
+    Implemente a função <code>getEstagiarioByChefe</code> que deverá retornar os estagiários conforme seus orientadores.
   </summary> <br />
 
-Essa função retorna informações referentes aos elefantes conforme o argumento passado:
+Essa função receberá, como parâmetro, um Funcionário efetivado e retornará seus respectivos estagiários.
 
-</details>
+- A função deve retornar <code>undefined</code> caso não receba um parâmetro ou receba um parâmetro inválido;
 
----
+- A função deve retornar <code>undefined</code> caso receba um funcionário não existente;
 
-## 8. Implemente a função `calculateEntry`.
+- A função deve retornar um array vazio caso não encontre nenhum resultado;
 
-<details>
-  <summary>
-    Calcule o valor <strong>total</strong> da entrada dos visitantes do zoológico. 
-  </summary> <br />
+- O array retornado deve estar em ordem alfabética (nomes dos estagiários).
 
 </details>
